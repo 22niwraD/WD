@@ -1,0 +1,91 @@
+body {
+    margin: 0%;
+    font-family: 'Sacramento', cursive;
+}
+.dar {
+    position: fixed;
+    top: 100px;
+    left: 250px;
+    color: darkred;
+}
+.pog {
+    position: fixed;
+    top: 140px;
+    left: 320px;
+    color: darkred;
+}
+.top {
+    background-color: #22577A;
+    position: relative;
+    height: 700px;
+}
+.stars {
+    mix-blend-mode: multiply;
+    position: absolute;
+    bottom: 300px;
+    left: -38px;
+}
+.topcloud {
+    mix-blend-mode: multiply;
+    position: absolute;
+    left: 350px;
+    top: 200px; ;
+}
+.bottomcloud {
+    mix-blend-mode: multiply;
+    position: absolute;
+    left: 850px;
+    top: 200px;
+}
+.mountain {
+    mix-blend-mode: multiply;
+    position:absolute;
+    left: 763px;
+    top: 200px;
+}
+.baba {
+    background-color: #7EB5A6;
+    font-family: sans-serif;
+}
+.win {
+    border-radius: 100%;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: darkred;
+    border-width: 5px;
+    width: 5%;
+}
+/********BELOW THIS COMMENT IS FOR SECONDARY.HTML ONLY*******/
+.container{
+    background-color:grey;
+    height:300px;
+    position:relative;
+    width:300px;
+  }
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position:absolute;
+    bottom:0px;
+    right:0px
+      
+  }
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    position:fixed;
+    left:100px;
+    top:100px;
+  }
+.yellow {
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    position:fixed;
+    top:0px;
+  }
+  
